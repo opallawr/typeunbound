@@ -582,22 +582,6 @@ document.addEventListener("DOMContentLoaded", function () {
 </script>
 
 <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
-<script type="text/javascript">
-  (function() {
-    emailjs.init("57VLXl3dL4Ji2br2I");
-  })();
-
-  document.getElementById('wf-form-phone-number').addEventListener('submit', function(e) {
-    e.preventDefault();
-    emailjs.sendForm('service_3x5lm92', 'template_0xhlmwe', this)
-      .then(function() {
-        alert("Thank you! You’re registered.");
-      }, function(error) {
-        console.log("FAILED...", error);
-        alert("There was an error. Please try again.");
-      });
-  });
-</script>
 
 </body>
 
