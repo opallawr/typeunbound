@@ -591,13 +591,14 @@ document.addEventListener("DOMContentLoaded", function () {
     e.preventDefault();
     emailjs.sendForm('service_3x5lm92', 'template_0xhlmwe', this)
       .then(function() {
-        alert("Thank you! You’re registered.");
+        // success handled silently or visually elsewhere
       }, function(error) {
         console.log("FAILED...", error);
-        alert("There was an error. Please try again.");
+        // error handled silently or visually elsewhere
       });
   });
 </script>
+
 
 </body>
 
