@@ -2070,7 +2070,8 @@ font-size: clamp(2px, 1.7vw, 36px);
 
 .simple-icon:hover,
 .ikonik-ur8c4:hover,
-.exitformbottom:hover {
+.exitformbottom:hover,
+.xicon {
   color: #e3ff00;
 }
 
